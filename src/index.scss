@@ -72,6 +72,7 @@ color: #fff;
 }
 .header-img{
   text-align: right;
+  // background-color: red;
 }
 .animated{
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -106,4 +107,40 @@ color: #fff;
   background-color:rgb(128, 0, 248) ;
   /* margin-bottom: -16px; */
   color: #fff;
+  position: relative;
+  bottom: -16px;
+}
+@media (max-width: 766px){
+  .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    width: 600px;
+    height: 300px !important;
+    position: relative;
+    // bottom: -1px;
+    align-items: center;
+  }
+  @-webkit-keyframes up-down{
+    0% {
+      transform: translateY(40px);
+    }
+    100% {
+      transform: translateY(-40px);
+  
+    }
+  }
+  @keyframes up-down {
+    0% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  .footer-div{
+    background-color:rgb(128, 0, 248) ;
+    /* margin-bottom: -16px; */
+    color: #fff;
+    position: relative;
+    bottom: -80px;
+  }
 }

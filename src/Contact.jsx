@@ -78,7 +78,7 @@ Message
   className="form-control" 
   id="exampleFormControlTextarea1" 
   rows="3"
-  name="msg"
+  className="msg"
   value={data.msg}
   onChange={InputEvent}
   ></textarea>
