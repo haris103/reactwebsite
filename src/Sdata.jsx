@@ -26,7 +26,7 @@ const Sdata = [
     {
         imgsrc:web2,
         title:"iOS development",
-        description:"We are in iOs development",
+        description:"This picture is Clicked by Fateh",
         btname:"iOS development",
         visit:"/about",
     },
