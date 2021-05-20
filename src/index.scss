@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+$brand-clr:rgb(128, 0, 248);
 
 *{
   margin: 0;
@@ -8,23 +9,24 @@
 }
 .navbar{
   background-color: rgb(255, 255, 255) !important;
+  & a{
+    font-size: 1.3rem !important;
+    text-transform: capitalize;
+    color: $brand-clr!important;
+  }
+  & a:hover{
+    color: rgb(4, 21, 175)!important;
+  }
+  .navbar-brand{
+    color: $brand-clr !important;
+    font-size: 1.9rem !important;
+    font-weight: bold;
+  }
 }
 /* .nav_bg{
   background-color: rgb(211, 12, 12) !important;
 } */
-.navbar a{
-  font-size: 1.3rem !important;
-  text-transform: capitalize;
-  color: rgb(128, 0, 248)!important;
-}
-.navbar a:hover{
-  color: rgb(4, 21, 175)!important;
-}
-.navbar-brand{
-  color: rgb(128, 0, 248) !important;
-  font-size: 1.9rem !important;
-  font-weight: bold;
-}
+
 .menu_active{
 font-weight: bold;
 border-bottom: 1px solid brown !important;
@@ -103,4 +105,5 @@ color: #fff;
 .footer-div{
   background-color:rgb(128, 0, 248) ;
   /* margin-bottom: -16px; */
+  color: #fff;
 }
